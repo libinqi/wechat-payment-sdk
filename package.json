@@ -1,0 +1,30 @@
+{
+  "name": "wechat-payment-sdk",
+  "version": "1.0.0",
+  "description": "wechat payment api for document v3.3.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/libinqi/wechat-payment-sdk.git"
+  },
+  "keywords": [
+    "wechat",
+    "payment"
+  ],
+  "author": "libinqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libinqi/wechat-payment-sdk/issues"
+  },
+  "homepage": "https://github.com/libinqi/wechat-payment-sdk",
+  "dependencies": {
+    "md5": "^2.0.0",
+    "request": "^2.45.0",
+    "sha1": "^1.1.0",
+    "underscore": "^1.7.0",
+    "xml2js": "^0.4.4"
+  }
+}

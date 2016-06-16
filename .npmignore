@@ -1,0 +1,8 @@
+node_modules
+lib-cov
+coverage.html
+example
+.git
+.DS_Store
+coverage
+*.pdf
