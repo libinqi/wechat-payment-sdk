@@ -13,10 +13,9 @@ var initConfig = {
 var payment = new Payment(initConfig);
 ```
 
-```
-刷卡支付
 
-## 付个钱
+
+## 付个钱——刷卡支付
 ```javascript
 var order = {
   body: '吮指原味鸡 * 1',
@@ -33,10 +32,9 @@ payment.getBrandWCPayRequestParams(order, function(err, payargs){
 });
 ```
 
-```
-条码支付
 
-## 付个钱
+
+## 付个钱——条码支付
 ```javascript
 var order = {
   body: '吮指原味鸡 * 1',
