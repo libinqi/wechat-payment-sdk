@@ -27,7 +27,7 @@ var order = {
   auth_code: '130753555491404466'
 };
 
-payment.getBrandWCPayRequestParams(order, function(err, payargs){
+payment.getBarCodeWCPayRequestParams(order, function(err, payargs){
   res.json(payargs);
 });
 ```
